@@ -27,6 +27,7 @@ try:
         # Execute SELECT query
         cursor.execute("SELECT * FROM kids;")
         cursor.execute("CREATE VIEW faculty AS SELECT ID, name, dept_name FROM instructor;")
+        cursor.execute("reate a view of department salary totals CREATE VIEW dept_salary_total AS SELECT dept_name, SUM(salary) AS total_salary FROM instructor GROUP BY dept_name;")
 
         
         # Fetch and print results
