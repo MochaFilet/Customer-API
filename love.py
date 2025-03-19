@@ -3,7 +3,7 @@ import mysql.connector
 # Database connection parameters
 db_host = "127.0.0.1"    # Example: "192.168.1.100"
 db_port = 3306           # Default MySQL port
-db_user = "richa"        # Example: "richa"
+db_user = "richa Deepak"        # Example: "richa"
 db_password = "richDeep" # Your database password
 db_name = "FARHAN"       # The database you want to connect to
 
