@@ -26,6 +26,8 @@ try:
         
         # Execute SELECT query
         cursor.execute("SELECT * FROM kids;")
+        cursor.execute("CREATE VIEW faculty AS SELECT ID, name, dept_name FROM instructor;")
+
         
         # Fetch and print results
         rows = cursor.fetchall()
